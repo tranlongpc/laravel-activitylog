@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Activitylog\Traits;
+namespace tranlongpc\Activitylog\Traits;
 
 use Illuminate\Support\Collection;
-use Spatie\Activitylog\ActivityLogger;
+use tranlongpc\Activitylog\ActivityLogger;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
-use Spatie\Activitylog\ActivitylogServiceProvider;
+use tranlongpc\Activitylog\ActivitylogServiceProvider;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait LogsActivity

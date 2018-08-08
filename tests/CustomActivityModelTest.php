@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace tranlongpc\Activitylog\Test;
 
-use Spatie\Activitylog\Exceptions\InvalidConfiguration;
-use Spatie\Activitylog\Test\Models\CustomActivityModel;
-use Spatie\Activitylog\Test\Models\InvalidActivityModel;
+use tranlongpc\Activitylog\Exceptions\InvalidConfiguration;
+use tranlongpc\Activitylog\Test\Models\CustomActivityModel;
+use tranlongpc\Activitylog\Test\Models\InvalidActivityModel;
 
 class CustomActivityModelTest extends TestCase
 {

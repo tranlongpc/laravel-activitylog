@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace tranlongpc\Activitylog;
 
 use Illuminate\Config\Repository;
 

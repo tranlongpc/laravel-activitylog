@@ -1,10 +1,10 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace tranlongpc\Activitylog\Test;
 
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\User;
-use Spatie\Activitylog\Traits\HasActivity;
+use tranlongpc\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Test\Models\User;
+use tranlongpc\Activitylog\Traits\HasActivity;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class HasActivityTest extends TestCase

@@ -1,15 +1,15 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace tranlongpc\Activitylog\Test;
 
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\Traits\LogsActivity;
+use tranlongpc\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Test\Models\Article;
+use tranlongpc\Activitylog\Traits\LogsActivity;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class LogsActivityTest extends TestCase
 {
-    /** @var \Spatie\Activitylog\Test\Models\Article|\Spatie\Activitylog\Traits\LogsActivity */
+    /** @var \tranlongpc\Activitylog\Test\Models\Article|\tranlongpc\Activitylog\Traits\LogsActivity */
     protected $article;
 
     public function setUp()

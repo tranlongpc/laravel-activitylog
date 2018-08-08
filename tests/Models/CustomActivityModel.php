@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Activitylog\Test\Models;
+namespace tranlongpc\Activitylog\Test\Models;
 
-use Spatie\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Models\Activity;
 
 class CustomActivityModel extends Activity
 {

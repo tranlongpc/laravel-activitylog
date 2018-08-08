@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace tranlongpc\Activitylog\Test;
 
 use Auth;
 use Illuminate\Support\Collection;
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\User;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\Exceptions\CouldNotLogActivity;
+use tranlongpc\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Test\Models\User;
+use tranlongpc\Activitylog\Test\Models\Article;
+use tranlongpc\Activitylog\Exceptions\CouldNotLogActivity;
 
 class ActivityloggerTest extends TestCase
 {

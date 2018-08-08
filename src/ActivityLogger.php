@@ -1,13 +1,13 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace tranlongpc\Activitylog;
 
 use Illuminate\Auth\AuthManager;
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Models\Activity;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Contracts\Config\Repository;
-use Spatie\Activitylog\Exceptions\CouldNotLogActivity;
+use tranlongpc\Activitylog\Exceptions\CouldNotLogActivity;
 
 class ActivityLogger
 {
@@ -30,7 +30,7 @@ class ActivityLogger
     /** @var string */
     protected $authDriver;
 
-    /** @var \Spatie\Activitylog\ActivityLogStatus */
+    /** @var \tranlongpc\Activitylog\ActivityLogStatus */
     protected $logStatus;
 
     public function __construct(AuthManager $auth, Repository $config, ActivityLogStatus $logStatus)
@@ -182,7 +182,7 @@ class ActivityLogger
     /**
      * @param \Illuminate\Database\Eloquent\Model|int|string $modelOrId
      *
-     * @throws \Spatie\Activitylog\Exceptions\CouldNotLogActivity
+     * @throws \tranlongpc\Activitylog\Exceptions\CouldNotLogActivity
      *
      * @return \Illuminate\Database\Eloquent\Model
      */

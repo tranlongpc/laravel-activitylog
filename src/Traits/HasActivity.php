@@ -1,8 +1,8 @@
 <?php
 
-namespace Spatie\Activitylog\Traits;
+namespace tranlongpc\Activitylog\Traits;
 
-use Spatie\Activitylog\ActivitylogServiceProvider;
+use tranlongpc\Activitylog\ActivitylogServiceProvider;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait HasActivity

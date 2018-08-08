@@ -1,11 +1,11 @@
 <?php
 
-namespace Spatie\Activitylog;
+namespace tranlongpc\Activitylog;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\ServiceProvider;
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Exceptions\InvalidConfiguration;
+use tranlongpc\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Exceptions\InvalidConfiguration;
 
 class ActivitylogServiceProvider extends ServiceProvider
 {

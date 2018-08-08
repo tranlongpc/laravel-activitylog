@@ -1,6 +1,6 @@
 # Changelog
 
-All notable changes to `spatie/laravel-activitylog` will be documented in this file
+All notable changes to `tranlongpc/laravel-activitylog` will be documented in this file
 
 ## 2.8.2 - 2018-07-28
 - allow `null` to be passed to `causedBy`

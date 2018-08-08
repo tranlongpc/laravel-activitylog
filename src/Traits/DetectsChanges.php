@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Activitylog\Traits;
+namespace tranlongpc\Activitylog\Traits;
 
 use Illuminate\Database\Eloquent\Model;
-use Spatie\Activitylog\Exceptions\CouldNotLogChanges;
+use tranlongpc\Activitylog\Exceptions\CouldNotLogChanges;
 
 trait DetectsChanges
 {

@@ -1,17 +1,17 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace tranlongpc\Activitylog\Test;
 
 use Carbon\Carbon;
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\User;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\Traits\LogsActivity;
+use tranlongpc\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Test\Models\User;
+use tranlongpc\Activitylog\Test\Models\Article;
+use tranlongpc\Activitylog\Traits\LogsActivity;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
 class DetectsChangesTest extends TestCase
 {
-    /** @var \Spatie\Activitylog\Test\Models\Article|\Spatie\Activitylog\Traits\LogsActivity */
+    /** @var \tranlongpc\Activitylog\Test\Models\Article|\tranlongpc\Activitylog\Traits\LogsActivity */
     protected $article;
 
     public function setUp()
