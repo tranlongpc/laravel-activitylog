@@ -17,3 +17,4 @@ $lastLoggedActivity->causer; //returns an instance of your user model
 $lastLoggedActivity->getExtraProperty('customProperty'); //returns 'customValue'
 $lastLoggedActivity->description; //returns 'Look, I logged something'
 ```
+version 3
