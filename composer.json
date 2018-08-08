@@ -1,10 +1,9 @@
 {
-    "name": "spatie/laravel-activitylog",
+    "name": "tranlongpc/laravel-activitylog",
     "description": "A very simple activity logger to monitor the users of your website or application",
-    "homepage": "https://github.com/spatie/activitylog",
+    "homepage": "https://github.com/tranlongpc/laravel-activitylog",
     "keywords":
     [
-        "spatie",
         "log",
         "user",
         "activity",
@@ -12,17 +11,12 @@
     ],
     "authors": [
         {
-            "name": "Freek Van der Herten",
-            "email": "freek@spatie.be",
-            "homepage": "https://spatie.be",
-            "role": "Developer"
-        },
-        {
-            "name": "Sebastian De Deyne",
-            "email": "sebastian@spatie.be",
-            "homepage": "https://spatie.be",
+            "name": "Tranlongpc",
+            "email": "tranlongpc@gmail.com",
+            "homepage": "https://bamiteam.com",
             "role": "Developer"
         }
+      
     ],
     "require": {
         "php" : "^7.0",
@@ -38,7 +32,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Activitylog\\": "src"
+            "tranlongpc\\Activitylog\\": "src"
         },
         "files": [
             "src/helpers.php"
@@ -46,7 +40,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Activitylog\\Test\\": "tests"
+            "tranlongpc\\Activitylog\\Test\\": "tests"
         }
     },
     "scripts": {
@@ -56,7 +50,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Activitylog\\ActivitylogServiceProvider"
+                "tranlongpc\\Activitylog\\ActivitylogServiceProvider"
             ]
         }
     }

@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Activitylog\Exceptions;
+namespace tranlongpc\Activitylog\Exceptions;
 
 use Exception;
-use Spatie\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Models\Activity;
 
 class InvalidConfiguration extends Exception
 {

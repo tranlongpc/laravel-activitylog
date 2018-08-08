@@ -32,9 +32,9 @@ return [
 
     /*
      * This model will be used to log activity. The only requirement is that
-     * it should be or extend the Spatie\Activitylog\Models\Activity model.
+     * it should be or extend the tranlongpc\Activitylog\Models\Activity model.
      */
-    'activity_model' => \Spatie\Activitylog\Models\Activity::class,
+    'activity_model' => \tranlongpc\Activitylog\Models\Activity::class,
 
     /*
      * This is the name of the table that will be created by the migration and

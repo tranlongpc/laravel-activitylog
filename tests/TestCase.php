@@ -1,12 +1,12 @@
 <?php
 
-namespace Spatie\Activitylog\Test;
+namespace tranlongpc\Activitylog\Test;
 
-use Spatie\Activitylog\Models\Activity;
-use Spatie\Activitylog\Test\Models\User;
+use tranlongpc\Activitylog\Models\Activity;
+use tranlongpc\Activitylog\Test\Models\User;
 use Illuminate\Database\Schema\Blueprint;
-use Spatie\Activitylog\Test\Models\Article;
-use Spatie\Activitylog\ActivitylogServiceProvider;
+use tranlongpc\Activitylog\Test\Models\Article;
+use tranlongpc\Activitylog\ActivitylogServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
@@ -107,7 +107,7 @@ abstract class TestCase extends OrchestraTestCase
     }
 
     /**
-     * @return \Spatie\Activitylog\Models\Activity|null
+     * @return \tranlongpc\Activitylog\Models\Activity|null
      */
     public function getLastActivity()
     {

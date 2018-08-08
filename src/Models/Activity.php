@@ -1,6 +1,6 @@
 <?php
 
-namespace Spatie\Activitylog\Models;
+namespace tranlongpc\Activitylog\Models;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
