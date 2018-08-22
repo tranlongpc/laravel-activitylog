@@ -168,6 +168,10 @@ class ActivityLogger
             $activity->causer()->associate($this->causedBy);
         }
 
+        //update new version
+        $activity->ip = \Request::ip();
+        $activity->browser = \Request::header('User-Agent');
+
         $activity->properties = $this->properties;
 
         $activity->description = $this->replacePlaceholders($description, $activity);
