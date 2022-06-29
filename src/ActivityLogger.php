@@ -8,6 +8,7 @@ use tranlongpc\Activitylog\Models\Activity;
 use Illuminate\Support\Traits\Macroable;
 use Illuminate\Contracts\Config\Repository;
 use tranlongpc\Activitylog\Exceptions\CouldNotLogActivity;
+use Illuminate\Support\Str;
 
 class ActivityLogger
 {
@@ -41,7 +42,7 @@ class ActivityLogger
 
         $this->authDriver = $config['activitylog']['default_auth_driver'] ?? $auth->getDefaultDriver();
 
-        if (starts_with(app()->version(), '5.1')) {
+        if (Str::startsWith(app()->version(), '5.1')) {
             $this->causedBy = $auth->driver($this->authDriver)->user();
         } else {
             $this->causedBy = $auth->guard($this->authDriver)->user();
@@ -196,7 +197,7 @@ class ActivityLogger
             return $modelOrId;
         }
 
-        if (starts_with(app()->version(), '5.1')) {
+        if (Str::startsWith(app()->version(), '5.1')) {
             $model = $this->auth->driver($this->authDriver)->getProvider()->retrieveById($modelOrId);
         } else {
             $model = $this->auth->guard($this->authDriver)->getProvider()->retrieveById($modelOrId);
