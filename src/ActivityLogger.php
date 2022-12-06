@@ -215,7 +215,7 @@ class ActivityLogger
         return preg_replace_callback('/:[a-z0-9._-]+/i', function ($match) use ($activity) {
             $match = $match[0];
 
-            $attribute = (string) string($match)->between(':', '.');
+            $attribute = Str::before(Str::after($match, ':'), '.');
 
             if (! in_array($attribute, ['subject', 'causer', 'properties'])) {
                 return $match;
